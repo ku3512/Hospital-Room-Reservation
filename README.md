@@ -1,0 +1,1 @@
+Clone the repository and then, within the VS Code integrated terminal, run the node server.js command to start the backend server. This is necessary because the frontend development workflow typically relies on a running backend server to interact with and fetch data.
