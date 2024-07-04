@@ -5,7 +5,7 @@ const reservationRoutes = require('./routes/reservation');
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());  // Ensure this line is present
+app.use(cors());  
 
 app.use('/api/reservation', reservationRoutes);
 
